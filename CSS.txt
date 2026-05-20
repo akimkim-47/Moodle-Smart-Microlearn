@@ -1,0 +1,250 @@
+/* ===================================
+   MINIMAL MODERN SMART-MICROLEARN
+   =================================== */
+
+/* Background */
+body {
+    background: #f4f7fb !important;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* =========================
+   FLASHCARD STYLE
+   ========================= */
+
+.card,
+.flashcard,
+.flip-card,
+.flip-card-inner {
+
+    background: white !important;
+
+    border-radius: 24px !important;
+
+    border: none !important;
+
+    padding: 40px !important;
+
+    box-shadow:
+        0 8px 24px rgba(0,0,0,0.08);
+
+    color: #1e293b !important;
+
+    font-size: 24px;
+
+    font-weight: 600;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.card:hover,
+.flashcard:hover,
+.flip-card:hover,
+.flip-card-inner:hover {
+
+    transform: translateY(-5px);
+
+    box-shadow:
+        0 12px 28px rgba(0,0,0,0.12);
+}
+
+/* =========================
+   BUTTON STYLE
+   ========================= */
+
+button,
+.btn {
+
+    background: linear-gradient(135deg, #3b82f6, #2563eb) !important;
+
+    border: none !important;
+
+    border-radius: 14px !important;
+
+    color: white !important;
+
+    font-weight: 600 !important;
+
+    padding: 12px 22px !important;
+
+    transition: 0.3s ease;
+}
+
+/* Hover button */
+button:hover,
+.btn:hover {
+
+    transform: scale(1.04);
+
+    box-shadow:
+        0 8px 18px rgba(37,99,235,0.3);
+}
+
+/* =========================
+   TITLE STYLE
+   ========================= */
+
+h1, h2, h3 {
+
+    color: #2563eb !important;
+
+    font-weight: 700;
+}
+
+/* =========================
+   NAVBAR
+   ========================= */
+
+.navbar {
+
+    background: white !important;
+
+    box-shadow:
+        0 2px 10px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   COURSE SECTION
+   ========================= */
+
+.course-section {
+
+    background: white;
+
+    border-radius: 18px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* =========================
+   TEXT
+   ========================= */
+
+.card p,
+.flashcard p {
+
+    text-align: center;
+
+    line-height: 1.6;
+}
+
+/* =========================
+   FLASHCARD QUESTION
+   ========================= */
+
+.flashcard-question {
+
+    background: linear-gradient(135deg, #667eea, #764ba2) !important;
+
+    color: white !important;
+
+    border-radius: 25px !important;
+
+    padding: 40px !important;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.3);
+
+    border: none !important;
+
+    font-size: 26px !important;
+
+    font-weight: 600;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease;
+}
+
+/* Hover */
+.flashcard-question:hover {
+
+    transform: scale(1.02);
+
+    box-shadow:
+        0 15px 30px rgba(0,0,0,0.4);
+}
+
+/* =========================
+   FLASHCARD ANSWER
+   ========================= */
+
+.flashcard-answer {
+
+    background: linear-gradient(135deg, #00c6ff, #0072ff) !important;
+
+    color: white !important;
+
+    border-radius: 25px !important;
+
+    padding: 40px !important;
+
+    border: none !important;
+
+    font-size: 24px !important;
+
+    box-shadow:
+        0 10px 25px rgba(0,0,0,0.3);
+}
+
+.card-title,
+.multiline {
+    white-space: normal !important;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    word-break: break-word;
+}
+/* =========================
+   DASHBOARD COURSE TITLE FIX
+   ========================= */
+
+.block_myoverview .multiline {
+
+    white-space: normal !important;
+
+    overflow: visible !important;
+
+    text-overflow: unset !important;
+
+    line-height: 1.4 !important;
+
+    font-size: 18px !important;
+
+    word-break: break-word !important;
+
+    max-height: none !important;
+}
+
+/* =========================
+   COURSE CARD
+   ========================= */
+
+.block_myoverview .card {
+
+    border-radius: 18px !important;
+
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.08);
+
+    transition: 0.3s ease;
+}
+
+.block_myoverview .card:hover {
+
+    transform: translateY(-5px);
+}
+button {
+
+    border-radius: 12px !important;
+
+    font-weight: bold !important;
+}
+
